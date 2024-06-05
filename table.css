@@ -1,0 +1,14 @@
+table{
+    /* https://colorzilla.com/gradient-editor/#00004d+0,660066+100;Table */
+background: linear-gradient(135deg,  rgb(53, 183, 243) 0%,rgb(255, 255, 255) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+.box {
+    background-color: var(--white);
+    border-radius: 1.5rem;
+    display: grid;
+    height: calc(10vh - 18rem);
+    padding: 6rem;
+    place-items: top;
+  }
